@@ -32,6 +32,7 @@ func rootCmd() *cobra.Command {
 	cmd.AddCommand(versionCmd())
 	cmd.AddCommand(checkCmd())
 	cmd.AddCommand(listCmd())
+	cmd.AddCommand(bundlesCmd())
 
 	return &cmd
 }
